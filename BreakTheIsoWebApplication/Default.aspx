@@ -20,7 +20,7 @@
                   <a href="Resources/one.png">
                     <img src="Resources/one.png" alt="Lights" style="width:100%">
                     <div class="caption">
-                      <p>Lorem ipsum...</p>
+                      <p>Lorem ipsum...test</p>
                     </div>
                   </a>
                 </div>
