@@ -29,7 +29,7 @@
                 <h2 id="frontTitle" class="text-center">Freshly added to Gallery</h2>
             </div>  
         </div>
-        <div class ="row border border-secondary  pt-4 mb-3">
+        <div class ="row border border-secondary rounded pt-4 mb-3">
             <div class="col-md-4">
                 <div class="thumbnail">
                   <a href="Resources/one.png" data-toggle="modal" data-target="#myModal0">
