@@ -73,6 +73,16 @@ namespace BreakTheIsoWebApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_negro_camera {
+            get {
+                object obj = ResourceManager.GetObject("logo_negro_camera", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap one {
             get {
                 object obj = ResourceManager.GetObject("one", resourceCulture);
