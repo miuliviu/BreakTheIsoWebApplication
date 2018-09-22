@@ -25,3 +25,12 @@
         border-color: slategrey;
         background-color: #99999929;
     }
+
+.modal {
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .modal-dialog {
+        max-width: 80%;
+    }
+}
