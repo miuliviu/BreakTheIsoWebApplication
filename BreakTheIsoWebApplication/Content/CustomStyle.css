@@ -1,0 +1,27 @@
+﻿    .jumbotron {
+        background-image: url("../Resources/two.png");
+        background-size :cover;
+    }
+
+    .jumbotron h1 {
+        color: white;
+    }
+
+    .lead {
+        color: #e2e0e3;
+        opacity: 0.8;
+    }
+
+    #frontTitle{
+        text-align:center;
+    }
+
+    .btn-primary{
+        border-color:slategrey;
+        background-color:transparent;
+    }
+
+    .btn-primary:hover {
+        border-color: slategrey;
+        background-color: #99999929;
+    }
