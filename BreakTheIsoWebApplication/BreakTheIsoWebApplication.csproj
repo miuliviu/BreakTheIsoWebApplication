@@ -136,6 +136,8 @@
     <Content Include="Albums\Album2\one.png" />
     <Content Include="Albums\Album2\three.png" />
     <Content Include="Albums\Album2\two.png" />
+    <Content Include="Albums\Album3\gallery-jumbo-back.png" />
+    <Content Include="Albums\Album3\Marianu.png" />
     <Content Include="Albums\Album3\two.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\CustomStyle.css" />

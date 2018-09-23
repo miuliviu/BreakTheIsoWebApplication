@@ -42,7 +42,7 @@ namespace BreakTheIsoWebApplication
                                                     "<a href=\"Resources/one.png\" data-toggle=\"modal\" data-target=\"#myModal"+idCounter+"\">"+
                                                     "<img class=\"rounded\" src=\"Albums"+"/"+albumParamValue+"/"+imageName+"\" alt=\"Lights\" style=\"width:100%\" >"+
                                                     "<div class=\"caption\">"+
-                                                        "<p>Lorem ipsum...test</p>"+
+                                                        "<p class=\"text-center\">Lorem ipsum...test</p>"+
                                                     "</div>"+
                                                       "</a>"+
                                                 "</div>"+
