@@ -19,6 +19,7 @@ namespace BreakTheIsoWebApplication
             DirectoryInfo[] albumDirectoriesCount= albumDirectoryInfo.GetDirectories();
             if (albumDirectoriesCount.Length != 0)
             {
+  
                 int counter = 0;
                 foreach(DirectoryInfo albumFolder in albumDirectoriesCount)
                 {
@@ -33,7 +34,7 @@ namespace BreakTheIsoWebApplication
                                                   "<div class=\"card-body\">" +
                                                     "<h5 class=\"card-title\">Album Title</h5>" +
                                                     "<p class=\"card-text text-center\">Album summary description.</p>" +
-                                                    "<a href=\"#\" class=\"btn btn-primary btn-lg text-center\">Open Album</a>" +
+                                                    "<a href=\"AlbumPreview?album="+ albumFolder.ToString() + "\" class=\"btn btn-primary btn-lg text-center\">Open Album</a>" +
                                                     "</div>" +
                                                 "</div>" +
                                         "</div>";

@@ -1,0 +1,19 @@
+﻿.container {
+    margin-top: 80px;
+}
+
+#albumJumbo {
+    background-image: url("../Resources/gallery-jumbo-back.png");
+    background-size: cover;
+    color: aliceblue
+}
+
+.modal {
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .modal-dialog {
+        max-width: 80%;
+    }
+}

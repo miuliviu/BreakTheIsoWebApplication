@@ -128,13 +128,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AlbumPreview.aspx" />
     <Content Include="Albums\Album1\one.png" />
     <Content Include="Albums\Album1\two.png" />
     <Content Include="Albums\Album2\four.png" />
+    <Content Include="Albums\Album2\gallery-jumbo-back.png" />
+    <Content Include="Albums\Album2\one.png" />
     <Content Include="Albums\Album2\three.png" />
+    <Content Include="Albums\Album2\two.png" />
     <Content Include="Albums\Album3\two.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\CustomStyle.css" />
+    <Content Include="Content\CustomStyleAlbumPreview.css" />
     <Content Include="Content\CustomStyleGallery.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -190,6 +195,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlbumPreview.aspx.cs">
+      <DependentUpon>AlbumPreview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlbumPreview.aspx.designer.cs">
+      <DependentUpon>AlbumPreview.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
