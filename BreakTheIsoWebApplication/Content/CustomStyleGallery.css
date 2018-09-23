@@ -1,0 +1,21 @@
+﻿.container {
+    margin-top: 80px;
+}
+
+#galleryJumbo {
+    background-image: url("../Resources/gallery-jumbo-back.png");
+    background-size: cover;
+    color:aliceblue
+}
+
+.btn-primary {
+    border-color: slategrey;
+    background-color: transparent;
+    color:black
+}
+
+    .btn-primary:hover {
+        border-color: slategrey;
+        background-color: #99999929;
+        color:black
+    }

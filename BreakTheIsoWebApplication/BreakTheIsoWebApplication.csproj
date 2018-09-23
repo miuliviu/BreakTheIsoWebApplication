@@ -128,11 +128,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Albums\Album1\one.png" />
+    <Content Include="Albums\Album1\two.png" />
+    <Content Include="Albums\Album2\four.png" />
+    <Content Include="Albums\Album2\three.png" />
+    <Content Include="Albums\Album3\two.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\CustomStyle.css" />
+    <Content Include="Content\CustomStyleGallery.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Gallery.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -147,6 +154,7 @@
     <None Include="Resources\four.png" />
     <None Include="Resources\logo-negro-camera.png" />
     <None Include="Resources\logo-home-alb.png" />
+    <None Include="Resources\gallery-jumbo-back.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -204,6 +212,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
