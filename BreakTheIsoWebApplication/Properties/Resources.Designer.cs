@@ -63,6 +63,16 @@ namespace BreakTheIsoWebApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fb_logo {
+            get {
+                object obj = ResourceManager.GetObject("fb_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap four {
             get {
                 object obj = ResourceManager.GetObject("four", resourceCulture);
@@ -76,6 +86,16 @@ namespace BreakTheIsoWebApplication.Properties {
         internal static System.Drawing.Bitmap gallery_jumbo_back {
             get {
                 object obj = ResourceManager.GetObject("gallery_jumbo_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap insta_logo {
+            get {
+                object obj = ResourceManager.GetObject("insta_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -162,6 +162,8 @@
     <None Include="Resources\logo-negro-camera.png" />
     <None Include="Resources\logo-home-alb.png" />
     <None Include="Resources\gallery-jumbo-back.png" />
+    <None Include="Resources\fb_logo.png" />
+    <None Include="Resources\insta-logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
