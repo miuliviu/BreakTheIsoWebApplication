@@ -21,7 +21,7 @@
             </div>
         </div>
     </div>
-    
+
     <!--Fresh Photos added to Gallery-->
     <div class="row">
         <div class="row w-100">
@@ -43,7 +43,7 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <img src="Resources/one.png" alt="test">
+                                <img src="Resources/one.png" alt="test" style="width:100%">
                             </div>
                             <div class="modal-footer d-flex justify-content-center align-content-center">
                                 <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
@@ -65,7 +65,7 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <img src="Resources/three.png" alt="test">
+                                <img src="Resources/three.png" alt="test" style="width:100%">
                             </div>
                             <div class="modal-footer d-flex justify-content-center align-content-center">
                                 <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
@@ -87,7 +87,7 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-body">
-                                <img src="Resources/four.png" alt="test">
+                                <img src="Resources/four.png" alt="test" style="width:100%">
                             </div>
                             <div class="modal-footer d-flex justify-content-center align-content-center">
                                 <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>

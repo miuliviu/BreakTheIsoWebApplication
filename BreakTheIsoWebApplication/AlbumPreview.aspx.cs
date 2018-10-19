@@ -50,7 +50,7 @@ namespace BreakTheIsoWebApplication
                                                 "<div class=\"modal-dialog\">"+
                                                     "<div class=\"modal-content\">"+
                                                         "<div class=\"modal-body\">"+
-                                                            "<img src=\"Albums" + "/" + albumParamValue + "/" + imageName + "\" alt=\"test\">" +
+                                                            "<img src=\"Albums" + "/" + albumParamValue + "/" + imageName + "\" alt=\"test\" style=\"width:100%\">" +
                                                         "</div>"+
                                                         "<div class=\"modal-footer d-flex justify-content-center align-content-center\">"+
                                                             "<button type = \"button\" class=\"btn btn-success\" data-dismiss=\"modal\">Close</button>"+

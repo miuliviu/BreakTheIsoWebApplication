@@ -50,8 +50,7 @@
         </asp:ScriptManager>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="/">
-            <img src="Resources/logo-negro-camera.png" style="width: 75px;height: 45px;" alt="logo">
-            
+            <img src="Resources/logo-negro-camera.png" style="width: 75px;height: 45px;" alt="logo"> 
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -64,6 +63,12 @@
               <a class="nav-item nav-link" href="/Contact">Contact</a>
             </div>
           </div>
+          <a class="navbar-brand" href="https://www.facebook.com/breaktheiso/">
+            <img src="Resources/fb_logo.png" style="width: 35px;height: 35px;" alt="logo-fb"> 
+          </a>
+          <a class="navbar-brand" href="https://www.instagram.com/breaktheiso/">
+            <img src="Resources/insta-logo.png" style="width: 35px;height: 35px;" alt="logo-insta"> 
+          </a>
         </nav>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
